@@ -9,11 +9,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,400;1,700;1,900&family=Playfair+Display:ital,wght@1,500;1,700;1,900&family=Work+Sans:wght@200;300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <header class="headerContainer">
-            <div></a><img src="http:via.placeholder.com/100x100" alt="logo"></div>
+            <div class="transicion box"></a><img src="http:via.placeholder.com/50x50" alt="logo"></div>
     
     
             <h1>Carla Romano Estilista</h1>
@@ -34,11 +35,11 @@
 
             <div class="textoCentrado div">
                 <img src="./Imagenes/Color y Nanoplastia Achicada.jpg" alt="Color y Nanoplastia">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, officiis!</p>
+                <p data-aos="flip-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, officiis!</p>
             </div>
             <div class="textoCentrado div2">
                 <img src="./Imagenes/Alisado Doble con Gold Diamond Achicada.jpg" alt="Alisado Doble">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, provident.</p>
+                <p data-aos="flip-left">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, provident.</p>
             </div>
 
         </main>
@@ -57,6 +58,9 @@
         </footer>
     </div>
 
-    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
