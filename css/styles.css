@@ -59,6 +59,7 @@ footer{
     text-align: center;
 }
 
+/*Agregando grid*/
 .container {  display: grid;
     grid-template-columns: 0.4fr 10.7fr 0.1fr;
     grid-template-rows: 0.5fr 2fr 0.5fr;
@@ -108,7 +109,7 @@ footer{
       border-radius: 1.5px;
   }
 
-
+/*Medias para distintos dispositivos*/
   @media screen and (max-width: 768px) {
     .mainContainer { grid-template-areas:
       "titulo titulo titulo titulo"
